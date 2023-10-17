@@ -4,8 +4,12 @@
   "description": "A user management service.",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.ts"
+    "dev": "node dist/server.js"
   },
   "author": "Tanveer Ahmad <tanveerisonline@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  }
 }

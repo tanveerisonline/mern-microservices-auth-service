@@ -1,0 +1,11 @@
+0. Initialized gitignore file.
+1. Added Github Repository.
+2. Installed nvm on system.
+3. Created.nvmrc fileinside project and set node version for project.
+4. Initialized package.json using command: npm init.
+5. Installed typescript in project using command: npm i -D typescript.
+6. Created tsconfig.json file using command:  npx tsc --init.
+7. Configured tsconfig.json file for project.
+8. Compiled typescript code with this command:  npx tsc.
+9. Installed types/node package to let typescript to import core libraries of node.js command: npm i -D @types/node.
+10.
