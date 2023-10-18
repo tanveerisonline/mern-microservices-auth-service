@@ -8,4 +8,8 @@
 7. Configured tsconfig.json file for project.
 8. Compiled typescript code with this command:  npx tsc.
 9. Installed types/node package to let typescript to import core libraries of node.js command: npm i -D @types/node.
-10.
+10.Installed prettier code formatter using command: npm install --save-dev --save-exact prettier.
+11.Created a .prettierrc.json file.
+12.Check formating of files using command:  npx prettier . --check.
+13.To Format the code using prettier use command: npx prettier . --write. 
+14.Add scripts inside package.json file to check and fix code by adding : "check":"" and "":""

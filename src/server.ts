@@ -1,4 +1,4 @@
 function login(username: string): boolean {
-  return true;
+    return true;
 }
-console.log(login("Hello There"));
+console.log(login('Hello There'));
