@@ -14,3 +14,23 @@
 13.To Format the code using prettier use command: npx prettier . --write. 
 14.Add scripts inside package.json file to check and fix code by adding : "check":"prettier . --check" and "fix":"prettier . --write".
 15.Use commands to Format the code type: npx run check || npx run fix.
+16.Added eslint typescript using this command: npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint .
+17.Create .eslintrc.cjs file in the root folder when using import in node.js.
+18.Add this code inside .eslintrc.cjs file /* eslint-env node */
+module.exports = {
+    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+    parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint'],
+    root: true,
+};
+19.Create .eslintignore file and add dist and node_modules folder name their.
+20.To check eslint error use command: npx eslint dot.
+21.To fix suggested errors use command: npx eslint dot --fix.
+22.Use this command to get prettier and eslint conflicts: npm install --save-dev eslint-config-prettier.
+23.Add this code inside the .eslintrc.cjs file extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended-type-checked',
+        'prettier',
+    ],
+24.Add scripts to package.json file for eslint use this code : "lint:check":"esint ." || "lint:fix":"eslint . --fix".
+
