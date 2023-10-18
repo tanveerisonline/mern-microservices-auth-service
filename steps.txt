@@ -33,4 +33,5 @@ module.exports = {
         'prettier',
     ],
 24.Add scripts to package.json file for eslint use this code : "lint:check":"esint ." || "lint:fix":"eslint . --fix".
-
+25.Installed husky to automate code formating and eslint check command: npm pkg set scripts.prepare="husky install".
+26.Add this code to create pre-commit file command: npx husky add .husky/pre-commit "enter script command here from package.json".
