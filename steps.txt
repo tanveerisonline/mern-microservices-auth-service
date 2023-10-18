@@ -12,4 +12,5 @@
 11.Created a .prettierrc.json file.
 12.Check formating of files using command:  npx prettier . --check.
 13.To Format the code using prettier use command: npx prettier . --write. 
-14.Add scripts inside package.json file to check and fix code by adding : "check":"" and "":""
+14.Add scripts inside package.json file to check and fix code by adding : "check":"prettier . --check" and "fix":"prettier . --write".
+15.Use commands to Format the code type: npx run check || npx run fix.
