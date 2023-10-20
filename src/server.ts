@@ -1,5 +1,5 @@
-function login(username: string): string {
-    return username;
-    console.log(username);
-}
-login('Hello There');
+const obj = {
+    property1: 'Hello, World!',
+};
+obj.property1;
+//console.log(buy);

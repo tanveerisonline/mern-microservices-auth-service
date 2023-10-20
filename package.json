@@ -5,9 +5,9 @@
     "main": "index.js",
     "scripts": {
         "check": "prettier . --check",
-        "fix": "prettier . --write",
+        "format:fix": "prettier . --write",
         "lint": "eslint .",
-        "linter": "eslint . --fix",
+        "lint:fix": "eslint . --fix",
         "dev": "node dist/server.js",
         "prepare": "husky install"
     },
