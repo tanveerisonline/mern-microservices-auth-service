@@ -8,8 +8,8 @@
         "format:fix": "prettier . --write",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "dev": "node dist/server.js",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "dev": "node dist/server.js"
     },
     "author": "Tanveer Ahmad <tanveerisonline@gmail.com>",
     "license": "ISC",
@@ -29,5 +29,8 @@
             "npm run lint:fix",
             "npm run format:fix"
         ]
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1"
     }
 }

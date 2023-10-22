@@ -44,3 +44,4 @@ module.exports = {
         ]
     }
 30.Go to husky folder then pre-commit file and add remove previous npm commands and add this :npx lint:staged
+To use config folder configurations inside server.js file use this code:import { Config } from './config';
