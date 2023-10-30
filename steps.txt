@@ -47,3 +47,6 @@ module.exports = {
 To use config folder configurations inside server.js file use this code:import { Config } from './config';
 31.Create app.ts file and install as dev dependencies nodemon and ts-node using command: npm i -D nodemon ts-node.
 32.Install express using command: npm install express.
+33.Install Logger to track logs use command to install winston logger: npm i winston.
+34.To install winston with types use command : npm i -D @types/winston.
+35. 
